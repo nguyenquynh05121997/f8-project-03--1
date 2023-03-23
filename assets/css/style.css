@@ -238,6 +238,7 @@
 
 .hero__pattern img {
     position: absolute;
+    display: none;
 }
 
 .hero__pattern img:first-child {
@@ -565,6 +566,7 @@
 
 .about__pattern {
     position: absolute;
+    display: none;
 }
 
 .about__pattern img {
@@ -963,6 +965,7 @@
 
 .pattern-bg img {
     position: absolute;
+    display: none;
     
 }
 
