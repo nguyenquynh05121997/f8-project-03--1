@@ -1276,12 +1276,22 @@
 }
 
 .footer__link-email input {
+    box-sizing: border-box;
     width: 90%;
     border: none;
     border-bottom: 1px solid #6A8383;
     padding: 36px 0;
     background: transparent;
+    font-size: 1.8rem;
+    color: #fff;
+    padding-right: 60px;
     outline: none;
+}
+
+.footer__link-email input:focus {
+    border-bottom: 1px solid #fff;
+    transition: 0.25s;
+
 }
 
 .footer__link-email input::placeholder {
